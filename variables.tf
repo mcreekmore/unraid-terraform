@@ -1,0 +1,11 @@
+variable "vm_name" {}
+variable "vm_memory" {}
+variable "vm_vcpu" {}
+variable "vm_disk_size" {}
+variable "user_name" {}
+variable "source_image" {}
+variable "domains_path" {}
+variable "isos_path" {}
+variable "ssh_public_key" {}
+variable "network_interface" {}
+variable "network_subnet" {}

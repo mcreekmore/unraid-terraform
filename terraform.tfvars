@@ -1,0 +1,11 @@
+vm_name           = "ubuntu-vm"
+vm_memory         = "2048"
+vm_vcpu           = 2
+vm_disk_size      = 10737418240 # 10GB
+user_name         = "username"
+source_image      = "https://cloud-images.ubuntu.com/releases/24.04/release/ubuntu-24.04-server-cloudimg-amd64.img"
+domains_path      = "/mnt/user/domains/tofu" 
+isos_path         = "/mnt/user/isos/tofu" 
+ssh_public_key    = "~/.ssh/id_ed25519.pub"
+network_interface = "br0"
+network_subnet    = "192.168.1.0/24"
