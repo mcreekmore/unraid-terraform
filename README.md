@@ -15,7 +15,7 @@ Thanks to [chrisreeves](https://github.com/chrisreeves-/scripts/tree/master/terr
 4. An ssh key that you've authorized to login to your root account on unraid. This can be done by going on the unraid dashboard to Settings > Manage Access > next to User: 'root': > Manage > paste your public key into the "SSH authorized keys" section
 
 
-## Change Libvirt Listen Addresse
+## Change Libvirt Listen Address
 1. Use your favorite command line editor to open `/etc/libvirt/libvirtd.conf` on the Unraid host
 2. Search for `listen_addr = "127.0.0.1"`
 3. Change to `listen_addr = "0.0.0.0"`
