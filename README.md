@@ -31,12 +31,10 @@ git clone https://github.com/mcreekmore/unraid-terraform.git
 cd unraid-terraform
 ```
 
-In the `provider.tf` file and replace the following fields with yours:
-
-- `root@unraid`: this should be an accessible ip/dns record that you can ssh into
-- `/home/yourhomedir/.ssh/id_ed25519.pub`: change this to point to an ssh key that you have added
-
 In the `terraform.tfvars` file is where you'll set all of your preferences and paths to things like the image you'd like to use, your username, size of the disk, route to your public key for ssh access, and even the routes to your unraids domains and isos share.
+
+- `root@unraid`: in the uri, this should be an accessible ip/dns record that you can ssh into.
+- `/home/yourhomedir/.ssh/id_ed25519.pub`: change this to point to an ssh key that you have added to unraid to authenticate.
 
 If you don't know what yours is, you can check by running `ip a` in your unraid terminal and look for the interface that provides you with your networks private IP
 

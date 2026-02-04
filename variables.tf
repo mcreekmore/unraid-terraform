@@ -9,3 +9,4 @@ variable "isos_path" {}
 variable "ssh_public_key" {}
 variable "network_interface" {}
 variable "network_subnet" {}
+variable "uri" {}
